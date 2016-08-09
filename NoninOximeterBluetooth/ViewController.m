@@ -102,7 +102,12 @@ IOBluetoothDeviceInquiry *mBluetoothDeviceInquiry;
     
     if(dataLength == 4)
     {
-        NSLog(@"Heart rate = %d, Sp02 level = %d", dataBytes[1], dataBytes[2]);
+        unsigned int heartRate = dataBytes[1];
+        unsigned int spO2 = dataBytes[2];
+        NSLog(@"Heart rate = %d, SpO2 level = %d", heartRate, spO2);
+        
+        [_txtField_heartRate setStringValue:[NSString stringWithFormat:@"%d", heartRate]];
+        [_txtField_spO2 setStringValue:[NSString stringWithFormat:@"%d", spO2]];
     }
 }
 
