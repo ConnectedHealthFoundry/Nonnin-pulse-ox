@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F21C35E1D5A814F0036361F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21C35D1D5A814F0036361F /* AppDelegate.m */; };
+		2F21C3611D5A814F0036361F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21C3601D5A814F0036361F /* main.m */; };
+		2F21C3641D5A814F0036361F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21C3631D5A814F0036361F /* ViewController.m */; };
+		2F21C3661D5A814F0036361F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F21C3651D5A814F0036361F /* Assets.xcassets */; };
+		2F21C3691D5A814F0036361F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F21C3671D5A814F0036361F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F21C3591D5A814F0036361F /* NoninOximeterBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoninOximeterBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F21C35C1D5A814F0036361F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F21C35D1D5A814F0036361F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F21C3601D5A814F0036361F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F21C3621D5A814F0036361F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F21C3631D5A814F0036361F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F21C3651D5A814F0036361F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F21C3681D5A814F0036361F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F21C36A1D5A814F0036361F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F21C3561D5A814F0036361F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F21C3501D5A814F0036361F = {
+			isa = PBXGroup;
+			children = (
+				2F21C35B1D5A814F0036361F /* NoninOximeterBluetooth */,
+				2F21C35A1D5A814F0036361F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F21C35A1D5A814F0036361F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F21C3591D5A814F0036361F /* NoninOximeterBluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F21C35B1D5A814F0036361F /* NoninOximeterBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				2F21C35C1D5A814F0036361F /* AppDelegate.h */,
+				2F21C35D1D5A814F0036361F /* AppDelegate.m */,
+				2F21C3621D5A814F0036361F /* ViewController.h */,
+				2F21C3631D5A814F0036361F /* ViewController.m */,
+				2F21C3651D5A814F0036361F /* Assets.xcassets */,
+				2F21C3671D5A814F0036361F /* Main.storyboard */,
+				2F21C36A1D5A814F0036361F /* Info.plist */,
+				2F21C35F1D5A814F0036361F /* Supporting Files */,
+			);
+			path = NoninOximeterBluetooth;
+			sourceTree = "<group>";
+		};
+		2F21C35F1D5A814F0036361F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F21C3601D5A814F0036361F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F21C3581D5A814F0036361F /* NoninOximeterBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F21C36D1D5A814F0036361F /* Build configuration list for PBXNativeTarget "NoninOximeterBluetooth" */;
+			buildPhases = (
+				2F21C3551D5A814F0036361F /* Sources */,
+				2F21C3561D5A814F0036361F /* Frameworks */,
+				2F21C3571D5A814F0036361F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoninOximeterBluetooth;
+			productName = NoninOximeterBluetooth;
+			productReference = 2F21C3591D5A814F0036361F /* NoninOximeterBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F21C3511D5A814F0036361F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "James Yu";
+				TargetAttributes = {
+					2F21C3581D5A814F0036361F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F21C3541D5A814F0036361F /* Build configuration list for PBXProject "NoninOximeterBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F21C3501D5A814F0036361F;
+			productRefGroup = 2F21C35A1D5A814F0036361F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F21C3581D5A814F0036361F /* NoninOximeterBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F21C3571D5A814F0036361F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21C3661D5A814F0036361F /* Assets.xcassets in Resources */,
+				2F21C3691D5A814F0036361F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F21C3551D5A814F0036361F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21C3641D5A814F0036361F /* ViewController.m in Sources */,
+				2F21C3611D5A814F0036361F /* main.m in Sources */,
+				2F21C35E1D5A814F0036361F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F21C3671D5A814F0036361F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F21C3681D5A814F0036361F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F21C36B1D5A814F0036361F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F21C36C1D5A814F0036361F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F21C36E1D5A814F0036361F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NoninOximeterBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attfoundry.NoninOximeterBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F21C36F1D5A814F0036361F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NoninOximeterBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attfoundry.NoninOximeterBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F21C3541D5A814F0036361F /* Build configuration list for PBXProject "NoninOximeterBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21C36B1D5A814F0036361F /* Debug */,
+				2F21C36C1D5A814F0036361F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F21C36D1D5A814F0036361F /* Build configuration list for PBXNativeTarget "NoninOximeterBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21C36E1D5A814F0036361F /* Debug */,
+				2F21C36F1D5A814F0036361F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F21C3511D5A814F0036361F /* Project object */;
+}
