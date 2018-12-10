@@ -17,9 +17,14 @@
 
 @property (nonatomic, retain) IOBluetoothDevice         *mBluetoothDevice;
 @property (nonatomic, retain) IOBluetoothRFCOMMChannel  *mRFCOMMChannel;
+@property (nonatomic, retain) IOBluetoothDeviceInquiry  *mBluetoothDeviceInquiry;
 
 @property IBOutlet NSTextField  *txtField_heartRate;
 @property IBOutlet NSTextField  *txtField_spO2;
+
+@property IBOutlet NSImageView  *imgView_bluetooth;
+
+@property IBOutlet NSButton *btn_sfCreateRecord;
 
 @end
 
